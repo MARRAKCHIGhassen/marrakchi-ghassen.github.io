@@ -130,7 +130,7 @@ ninja.data = [{
           title: 'Machine Learning Workshop: End-to-End Pipeline &amp;amp; Medical Classification',
           description: "A hands-on engineering workshop focused on building, evaluating, and optimizing a supervised machine learning pipeline for tumor diagnosis using the Breast Cancer Wisconsin dataset.",
           section: "Teachings",handler: () => {
-              window.location.href = "/teachings/data-science-fundamentals/";
+              window.location.href = "/teachings/ML-Wrokshop/";
             },},{
         id: 'social-cv',
         title: 'CV',

@@ -440,7 +440,10 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-oxford-machine-learning-summer-school-oxml",
+            },},{id: "news-participated-in-google-research-day-in-paris-see-my-post-here",
+          title: 'Participated in Google Research Day in Paris. See my post here.',
+          description: "",
+          section: "News",},{id: "news-oxford-machine-learning-summer-school-oxml",
           title: 'Oxford Machine Learning Summer School (OxML)',
           description: "",
           section: "News",handler: () => {

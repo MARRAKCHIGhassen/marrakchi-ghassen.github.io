@@ -10,6 +10,10 @@ scholar_userid: s24TAWQAAAAJ # your Google Scholar ID
 # whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 orcid_id: 0009-0006-2538-783X  # Replace with your actual ORCID
 linkedin_username: marrakchi-ghassen # Replace with your username
+custom_social: 
+  logo: https://icons8.com/icon/JwlJGiL15V81/researchgate
+  title: ResearchGate
+  url: https://www.researchgate.net/profile/Ghassen-Marrakchi
 # custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
 #   logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
 #   title: Custom Social

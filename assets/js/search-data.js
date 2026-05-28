@@ -81,12 +81,7 @@ ninja.data = [{
             },},{id: "news-held-a-workshop-on-classification-for-students-of-the-information-systems-engineering-programme-at-the-university-of-tirana-code-available-on-github",
           title: 'Held a workshop on Classification for students of the Information Systems Engineering programme...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
+          section: "News",},{id: "projects-project-2",
           title: 'project 2',
           description: "a project with a background image and giscus comments",
           section: "Projects",handler: () => {

@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://marrakchi-ghassen.github.io/sitemap.xml
+Sitemap: https://marrakchighassen.github.io/sitemap.xml

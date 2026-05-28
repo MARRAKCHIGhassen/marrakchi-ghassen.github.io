@@ -172,8 +172,8 @@ ninja.data = [{
           window.open("https://www.linkedin.com/in/marrakchi-ghassen", "_blank");
         },
       },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
+        id: 'social-ResearchGate',
+        title: 'Researchgate',
         section: 'Socials',
         handler: () => {
           window.open("https://www.researchgate.net/profile/Ghassen-Marrakchi", "_blank");

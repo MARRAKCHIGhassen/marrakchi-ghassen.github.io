@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About
+title: about
 permalink: /
 subtitle: >
   PhD Student at <a href='https://lipn.univ-paris13.fr/'>LIPN</a>, <a href='https://www.univ-spn.fr/'>Université Sorbonne Paris Nord</a> <br>

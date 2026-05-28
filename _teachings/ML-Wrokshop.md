@@ -13,32 +13,32 @@ schedule:
     topic: Data Loading & Exploratory Data Analysis (EDA)
     description: Automated and manual data ingestion using pandas and numpy. Auditing dimensions, mapping class distributions, and visualizing feature variances using seaborn and matplotlib.
     materials:
-      - name: Workshop Repository & Notebook
-        url: https://github.com/MARRAKCHIGhassen/Workshops/tree/main/Machine%20Learning%20Workshop%3A%20End-to-End%20Pipeline%20%26%20Medical%20Classification
+      - name: "Workshop Repository & Notebook"
+        url: "https://github.com/MARRAKCHIGhassen/Workshops/tree/main/Machine%20Learning%20Workshop%3A%20End-to-End%20Pipeline%20%26%20Medical%20Classification"
 
   - Part: 2
     date: May 26
     topic: Preprocessing & Baseline Metrics
     description: Implementing a stratified 80/20 train/test split and normalizing features with StandardScaler. Constructing a baseline Decision Tree and decoding evaluation metrics (Accuracy, Precision, Recall, Confusion Matrices, ROC).
     materials:
-      - name: Workshop Repository & Notebook
-        url: https://github.com/MARRAKCHIGhassen/Workshops/tree/main/Machine%20Learning%20Workshop%3A%20End-to-End%20Pipeline%20%26%20Medical%20Classification
+      - name: "Workshop Repository & Notebook"
+        url: "https://github.com/MARRAKCHIGhassen/Workshops/tree/main/Machine%20Learning%20Workshop%3A%20End-to-End%20Pipeline%20%26%20Medical%20Classification"
 
   - Part: 3
     date: May 26
     topic: The Scaling Experiment
     description: A controlled visual and empirical experiment using KNeighborsClassifier trained on both unscaled and scaled data to prove the critical impact of normalization on distance-based models.
     materials:
-      - name: Workshop Repository & Notebook
-        url: https://github.com/MARRAKCHIGhassen/Workshops/tree/main/Machine%20Learning%20Workshop%3A%20End-to-End%20Pipeline%20%26%20Medical%20Classification
+      - name: "Workshop Repository & Notebook"
+        url: "https://github.com/MARRAKCHIGhassen/Workshops/tree/main/Machine%20Learning%20Workshop%3A%20End-to-End%20Pipeline%20%26%20Medical%20Classification"
 
   - Part: 4
     date: May 26
     topic: Pipeline Optimization & Production Inference
     description: Building modular Pipeline structures and running automated GridSearchCV across Decision Trees, KNN, Random Forests, and Logistic Regression. Concluding with simulated real-time inference on a raw patient record.
     materials:
-      - name: Workshop Repository & Notebook
-        url: https://github.com/MARRAKCHIGhassen/Workshops/tree/main/Machine%20Learning%20Workshop%3A%20End-to-End%20Pipeline%20%26%20Medical%20Classification
+      - name: "Workshop Repository & Notebook"
+        url: "https://github.com/MARRAKCHIGhassen/Workshops/tree/main/Machine%20Learning%20Workshop%3A%20End-to-End%20Pipeline%20%26%20Medical%20Classification"
 ---
 
 ## Workshop Overview

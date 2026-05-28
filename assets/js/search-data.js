@@ -158,6 +158,17 @@ ninja.data = [{
             window.location.href = "/blog/2023/audios/";
           
         },
+      },{id: "post-a-post-with-videos",
+        
+          title: "a post with videos",
+        
+        description: "this is what included videos could look like",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/videos/";
+          
+        },
       },{id: "post-displaying-beautiful-tables-with-bootstrap-tables",
         
           title: "displaying beautiful tables with Bootstrap Tables",
@@ -233,6 +244,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2021/distill/";
+          
+        },
+      },{id: "post-a-post-with-disqus-comments",
+        
+          title: "a post with disqus comments",
+        
+        description: "an example of a blog post with disqus comments",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/disqus-comments/";
           
         },
       },{id: "news-served-as-an-organizing-volunteer-for-the-plate-forme-intelligence-artificielle-pfia-2023-in-strasbourg",

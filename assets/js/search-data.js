@@ -126,9 +126,9 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "teachings-",
-          title: '',
-          description: "",
+            },},{id: "teachings-machine-learning-workshop-end-to-end-pipeline-amp-medical-classification",
+          title: 'Machine Learning Workshop: End-to-End Pipeline &amp;amp; Medical Classification',
+          description: "A hands-on engineering workshop focused on building, evaluating, and optimizing a supervised machine learning pipeline for tumor diagnosis using the Breast Cancer Wisconsin dataset.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/data-science-fundamentals/";
             },},{id: "teachings-introduction-to-machine-learning",

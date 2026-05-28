@@ -2,7 +2,9 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>PhD Student at LIPN, Université Sorbonne Paris Nord | Teacher Assistant at UFR 919, Sorbonne Université</a>.
+subtitle: >
+  PhD Student at <a href='https://lipn.univ-paris13.fr/'>LIPN</a>, <a href='https://www.univ-spn.fr/'>Université Sorbonne Paris Nord</a> --
+  Teacher Assistant at <a href='https://sciences.sorbonne-universite.fr/'>UFR Engineering</a>, <a href='https://www.sorbonne-universite.fr/'>Sorbonne Université</a>.
 
 profile:
   align: right
@@ -27,9 +29,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-
-I am a computer scientist with a specialization in Artificial Intelligence. My research primarily focuses on the development and implementation of Deep Learning applications.
-
-Currently, I am working on medical imaging in my PhD.
-
-As a laureate of PNGS-M&CS, I graduated with a Master's degree in September 2023. During my studies, I worked on applying deep learning in natural language processing and remote sensing. As a result, I gained experience in working with different data types such as time series and text, in addition to images.
+I am a PhD student in Computer Science (Artificial Intelligence) at the Laboratoire d'Informatique de Paris Nord (LIPN), Université Sorbonne Paris Nord. My research centers on the development and implementation of self-supervised Deep Learning frameworks, with a particular focus on 3D segmentation and reconstruction of anatomical structures in medical imaging.  As a laureate of the EUR PNGS-M&CS excellence scholarship, I completed my Master’s degree in 2023. Throughout my academic and research journey, I have cultivated a versatile technical background by working with diverse data modalities, including natural language, remote sensing time series, and medical imagery.

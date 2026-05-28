@@ -440,15 +440,15 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "news-visiting-researcher-at-the-university-of-tirana",
+          section: "News",},{id: "news-oxford-machine-learning-summer-school-oxml",
+          title: 'Oxford Machine Learning Summer School (OxML)',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2024-07-15-oxml-summer-school/";
+            },},{id: "news-visiting-researcher-at-the-university-of-tirana",
           title: 'Visiting Researcher at the University of Tirana',
           description: "",
           section: "News",handler: () => {

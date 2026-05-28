@@ -30,7 +30,7 @@ schedule:
     description: A controlled visual and empirical experiment using KNeighborsClassifier trained on both unscaled and scaled data to prove the critical impact of normalization on distance-based models.
     materials:
       - name: Workshop Repository & Notebook
-        url: https://github.com/MARRAKCHIGhassen/Workshops/tree/main/Machine%20Learning%20Workshop%3A%20End-to-End%20Pipeline%20%26%20Medical%20Classification
+        url: 
 
   - Part: 4
     date: May 26

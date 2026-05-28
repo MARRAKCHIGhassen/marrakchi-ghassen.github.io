@@ -1,7 +1,7 @@
 ---
 layout: course
-title: Machine Learning Workshop: End-to-End Pipeline & Medical Classification
-description: A hands-on engineering workshop focused on building, evaluating, and optimizing a supervised machine learning pipeline for tumor diagnosis using the Breast Cancer Wisconsin dataset.
+title: "Machine Learning Workshop: End-to-End Pipeline & Medical Classification"
+description: "A hands-on engineering workshop focused on building, evaluating, and optimizing a supervised machine learning pipeline for tumor diagnosis using the Breast Cancer Wisconsin dataset."
 instructor: Ghassen Marrakchi
 year: 2026
 location: University of Tirana
@@ -30,7 +30,7 @@ schedule:
     description: A controlled visual and empirical experiment using KNeighborsClassifier trained on both unscaled and scaled data to prove the critical impact of normalization on distance-based models.
     materials:
       - name: Workshop Repository & Notebook
-        url: 
+        url: https://github.com/MARRAKCHIGhassen/Workshops/tree/main/Machine%20Learning%20Workshop%3A%20End-to-End%20Pipeline%20%26%20Medical%20Classification
 
   - Part: 4
     date: May 26

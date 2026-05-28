@@ -1,97 +1,72 @@
 ---
 layout: course
-title: Data Science Fundamentals
-description: This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.
-instructor: Prof. Data
+title: "Machine Learning Workshop: End-to-End Pipeline & Medical Classification"
+description: "A hands-on engineering workshop focused on building, evaluating, and optimizing a supervised machine learning pipeline for tumor diagnosis using the Breast Cancer Wisconsin dataset."
+instructor: Ghassen Marrakchi
 year: 2024
 term: Spring
-location: Science Building, Room 202
-time: Mondays and Wednesdays, 2:00-3:30 PM
-course_id: data-science-fundamentals
+location: University of Tirana (UNINOVIS Exchange)
+time: TBD
+course_id: ml-workshop-medical-classification
 schedule:
-  - week: 1
-    date: Feb 5
-    topic: Introduction to Data Science
-    description: Overview of the data science workflow and key concepts.
+  - Signle Session | Part 1
+    date: May, 26th 2026
+    topic: Data Loading & Exploratory Data Analysis (EDA)
+    description: Automated and manual data ingestion using pandas and numpy. Auditing dimensions, mapping class distributions, and visualizing feature variances using seaborn and matplotlib.
     materials:
-      - name: Syllabus
-        url: /assets/pdf/example_pdf.pdf
-      - name: Slides
-        url: /assets/pdf/example_pdf.pdf
+      - name: Workshop Repository & Notebook
+        url: https://github.com/MARRAKCHIGhassen/Workshops/tree/main/Machine%20Learning%20Workshop%3A%20End-to-End%20Pipeline%20%26%20Medical%20Classification
 
-  - week: 2
-    date: Feb 12
-    topic: Data Collection and APIs
-    description: Methods for collecting data through APIs, web scraping, and databases.
+  - Signle Session | Part 2
+    date: May, 26th 2026
+    topic: Preprocessing & Baseline Metrics
+    description: Implementing a stratified 80/20 train/test split and normalizing features with StandardScaler. Constructing a baseline Decision Tree and decoding evaluation metrics (Accuracy, Precision, Recall, Confusion Matrices, ROC).
     materials:
-      - name: Lecture Notes
-        url: /assets/pdf/example_pdf.pdf
-      - name: Assignment 1
-        url: /assets/pdf/example_pdf.pdf
+      - name: Workshop Repository & Notebook
+        url: https://github.com/MARRAKCHIGhassen/Workshops/tree/main/Machine%20Learning%20Workshop%3A%20End-to-End%20Pipeline%20%26%20Medical%20Classification
 
-  - week: 3
-    date: Feb 19
-    topic: Data Cleaning and Preprocessing
-    description: Techniques for handling missing values, outliers, and data transformation.
+  - Signle Session | Part 3
+    date: May, 26th 2026
+    topic: The Scaling Experiment
+    description: A controlled visual and empirical experiment using KNeighborsClassifier trained on both unscaled and scaled data to prove the critical impact of normalization on distance-based models.
     materials:
-      - name: Lecture Notes
-        url: /assets/pdf/example_pdf.pdf
-      - name: Coding Lab
-        url: https://github.com/
+      - name: Workshop Repository & Notebook
+        url: https://github.com/MARRAKCHIGhassen/Workshops/tree/main/Machine%20Learning%20Workshop%3A%20End-to-End%20Pipeline%20%26%20Medical%20Classification
 
-  - week: 4
-    date: Feb 26
-    topic: Exploratory Data Analysis
-    description: Descriptive statistics, visualization, and pattern discovery.
+  - Signle Session | Part 4
+    date: May, 26th 2026
+    topic: Pipeline Optimization & Production Inference
+    description: Building modular Pipeline structures and running automated GridSearchCV across Decision Trees, KNN, Random Forests, and Logistic Regression. Concluding with simulated real-time inference on a raw patient record.
     materials:
-      - name: Lecture Notes
-        url: /assets/pdf/example_pdf.pdf
-      - name: Assignment 2
-        url: /assets/pdf/example_pdf.pdf
-
-  - week: 5
-    date: Mar 4
-    topic: Statistical Analysis
-    description: Hypothesis testing, confidence intervals, and statistical inference.
-    materials:
-      - name: Lecture Notes
-        url: /assets/pdf/example_pdf.pdf
-      - name: Review Materials
-        url: /assets/pdf/example_pdf.pdf
-
-  - week: 6
-    date: Mar 11
-    topic: Data Visualization
-    description: Principles and tools for effective data visualization.
-    materials:
-      - name: Lecture Notes
-        url: /assets/pdf/example_pdf.pdf
-      - name: Assignment 3
-        url: /assets/pdf/example_pdf.pdf
+      - name: Workshop Repository & Notebook
+        url: https://github.com/MARRAKCHIGhassen/Workshops/tree/main/Machine%20Learning%20Workshop%3A%20End-to-End%20Pipeline%20%26%20Medical%20Classification
 ---
 
-## Course Overview
+## Workshop Overview
 
-This course provides a comprehensive introduction to data science principles and practices. Students will:
+This workshop is dedicated to model engineering and supervised learning. We are adopting a strict engineering mindset: no magic, just applied mathematics and industry standards. In this session, participants build, evaluate, and optimize a complete Machine Learning system, from raw data ingestion to final predictive inference.
 
-- Learn the end-to-end data science workflow
-- Gain practical experience with data manipulation tools
-- Develop skills in data visualization and communication
-- Apply statistical methods to derive insights from data
+## The Use Case: Automated Tumor Diagnosis
 
-## Prerequisites
+We work with real-world medical data utilizing the **Breast Cancer Wisconsin (Diagnostic) Dataset**.
 
-- Basic programming knowledge (preferably in Python)
-- Introductory statistics
-- Comfort with basic algebra
+* **The Mission:** Engineer a robust binary classification algorithm capable of accurately diagnosing a tumor as **Benign** or **Malignant** by analyzing 30 distinct digitized cellular features.
+* **The Business & Ethical Challenge:** In healthcare, diagnostic errors carry life-or-death consequences. We explore why standard "Accuracy" is a dangerous metric in medicine, and learn how to force our algorithm to prioritize the minimization of false negatives (missed diagnoses) using custom Recall scorers.
 
-## Textbooks
+## Technical Stack
 
-- "Python for Data Analysis" by Wes McKinney
-- "Data Science from Scratch" by Joel Grus
+This workshop relies exclusively on the industry-standard Python data stack:
+* **Data Manipulation:** `pandas`, `numpy`
+* **Machine Learning:** `scikit-learn` (Pipelines, Model Selection, Metrics, Classifiers)
+* **Visualization:** `matplotlib`, `seaborn`
 
-## Grading
+## Core Concept: Mastering Scikit-Learn
 
-- Assignments: 50%
-- Project: 40%
-- Participation: 10%
+While Deep Learning (TensorFlow/PyTorch) often gets the spotlight, **Scikit-Learn** is the absolute industry standard for classical Machine Learning. Mastering its unified catalog of algorithms and robust tools for data preprocessing and pipeline creation is the mandatory first step for any Data Scientist or Machine Learning Engineer.
+
+## Setup and Execution
+
+All workshop materials are freely available. To participate:
+1.  Access the [Workshop Repository on GitHub](https://github.com/MARRAKCHIGhassen/Workshops/tree/main/Machine%20Learning%20Workshop%3A%20End-to-End%20Pipeline%20%26%20Medical%20Classification).
+2.  Open the Jupyter Notebook locally or directly in Google Colab.
+3.  Ensure your Python environment has the required dependencies (`pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`).

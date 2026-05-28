@@ -440,7 +440,10 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-participated-in-google-research-day-in-paris-see-my-post-here",
+            },},{id: "news-served-as-an-organizing-volunteer-for-the-plate-forme-intelligence-artificielle-pfia-2023-in-strasbourg",
+          title: 'Served as an organizing volunteer for the Plate-Forme Intelligence Artificielle (PFIA 2023) in...',
+          description: "",
+          section: "News",},{id: "news-participated-in-google-research-day-in-paris-see-my-post-here",
           title: 'Participated in Google Research Day in Paris. See my post here.',
           description: "",
           section: "News",},{id: "news-oxford-machine-learning-summer-school-oxml",

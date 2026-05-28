@@ -445,7 +445,10 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2024-07-15-oxml-summer-school/";
-            },},{id: "news-visiting-researcher-at-the-university-of-tirana",
+            },},{id: "news-attended-pfia-2025-in-dijon-participating-in-the-ai-amp-amp-health-workshop-and-the-cap-and-cnia-conferences",
+          title: 'Attended PFIA 2025 in Dijon, participating in the “AI &amp;amp;amp; Health” workshop and...',
+          description: "",
+          section: "News",},{id: "news-visiting-researcher-at-the-university-of-tirana",
           title: 'Visiting Researcher at the University of Tirana',
           description: "",
           section: "News",handler: () => {

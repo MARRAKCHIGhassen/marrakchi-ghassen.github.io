@@ -345,12 +345,7 @@ ninja.data = [{
             window.location.href = "/blog/2015/disqus-comments/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-served-as-an-organizing-volunteer-for-the-plate-forme-intelligence-artificielle-pfia-2023-in-strasbourg",
+      },{id: "news-served-as-an-organizing-volunteer-for-the-plate-forme-intelligence-artificielle-pfia-2023-in-strasbourg",
           title: 'Served as an organizing volunteer for the Plate-Forme Intelligence Artificielle (PFIA 2023) in...',
           description: "",
           section: "News",},{id: "news-participated-in-google-research-day-in-paris-see-my-post-here",

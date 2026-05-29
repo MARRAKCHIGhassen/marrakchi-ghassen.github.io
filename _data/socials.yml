@@ -3,6 +3,7 @@
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
 cv_pdf: /assets/pdf/CV-FR.pdf # path to your CV PDF file
 email: ghassen.marrakchi@lipn.univ-paris13.fr # your email address
+work_url: marrakchighassen.github.io
 # inspirehep_id: 1010907 # Inspire HEP author ID
 # rss_icon: true # comment this line to hide the RSS icon
 scholar_userid: s24TAWQAAAAJ # your Google Scholar ID
@@ -10,10 +11,13 @@ scholar_userid: s24TAWQAAAAJ # your Google Scholar ID
 # whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 orcid_id: 0009-0006-2538-783X  # Replace with your actual ORCID
 linkedin_username: marrakchi-ghassen # Replace with your username
-ResearchGate: 
-  logo: https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/external-researchgate-a-social-networking-site-for-scientists-and-researchers-to-share-papers-logo-color-tal-revivo.png
-  title: ResearchGate
-  url: https://www.researchgate.net/profile/Ghassen-Marrakchi
+research_gate_profile: Ghassen-Marrakchi
+hal_id: ghassen-marrakchi
+github_username: MARRAKCHIGhassen
+# ResearchGate: 
+#   logo: https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/external-researchgate-a-social-networking-site-for-scientists-and-researchers-to-share-papers-logo-color-tal-revivo.png
+#   title: ResearchGate
+#   url: https://www.researchgate.net/profile/Ghassen-Marrakchi
 # custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
 #   logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
 #   title: Custom Social
